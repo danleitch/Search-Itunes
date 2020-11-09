@@ -4,7 +4,11 @@ const helmet = require("helmet");
 const app = express();
 const fetch = require('node-fetch');
 const PORT = process.env.PORT || 8080;
-app.use(helmet());
+app.use(
+    helmet({
+        contentSecurityPolicy: false,
+    })
+);
 
 app.get('/media', function (req, res) {
     fetch(`https://itunes.apple.com/search?term=${req.query.artist}&limit=25&entity=${req.query.radioValue}`)
