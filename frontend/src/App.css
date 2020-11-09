@@ -1,0 +1,87 @@
+footer{
+  position: absolute;
+  bottom: 0.6rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  text-shadow: 0.5px 0.5px black;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.iSearch{
+padding-left: 0.8rem;
+padding-top: 0.3rem;
+font-size: 1.8rem;
+}
+
+.landing-page, .search-page  { 
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.below-header  { 
+color: white;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 2.3em;
+text-shadow: 0.5px 0.5px black;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.3em;
+  text-shadow: 0.5px 0.5px black;
+  
+  
+}
+
+.home-screen-background {
+  background: url("./images/background3.jpg"); 
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: cover;
+  background-position: 40%;
+  }
+
+.search-screen-background {
+  background: url("./images/background3.jpg"); 
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  }
+
+.search-screen-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+
+}
+
+.home-screen-content{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.3em;
+  text-shadow: 0.5px 0.5px black;
+}
+
+
+
+left-title {
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
